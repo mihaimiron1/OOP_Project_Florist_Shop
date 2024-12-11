@@ -1,0 +1,50 @@
+Data si ora: Wed Nov 20 15:50:29 2024
+Tipul erorii: ExceptieStocInsuficient
+Mesajul erorii: Stoc insuficient pentru achizitionarea produsului!
+------------------------------------
+Data si ora: Wed Nov 20 15:50:56 2024
+Tipul erorii: ExceptieProdusInvalid
+Mesajul erorii: Pretul produsului nu poate fi negativ sau nu ati introdus un integer!
+------------------------------------
+Data si ora: Wed Nov 20 15:51:06 2024
+Tipul erorii: ExceptieProdusInvalid
+Mesajul erorii: Cantitate invalida sau negativa
+------------------------------------
+Data si ora: Tue Dec 10 22:32:25 2024
+Tipul erorii: ExceptiePlataInvalida
+Mesajul erorii: Data de expirare este invalida sau cardul a expirat.
+
+------------------------------------
+Data si ora: Wed Dec 11 02:32:34 2024
+Tipul erorii: ExceptieStocInsuficient
+Mesajul erorii: Stoc insuficient pentru achizitionarea produsului!
+------------------------------------
+Data si ora: Wed Dec 11 02:32:57 2024
+Tipul erorii: ExceptiePlataInvalida
+Mesajul erorii: Numarul cardului este invalid! Trebuie sa contina exact 16 cifre.
+
+------------------------------------
+Data si ora: Wed Dec 11 02:43:15 2024
+Tipul erorii: ExceptiePlataInvalida
+Mesajul erorii: Data de expirare este invalida sau cardul a expirat.
+
+------------------------------------
+Data si ora: Wed Dec 11 02:43:45 2024
+Tipul erorii: ExceptiePlataInvalida
+Mesajul erorii: Data de expirare este invalida sau cardul a expirat.
+
+------------------------------------
+Data si ora: Wed Dec 11 20:14:33 2024
+Tipul erorii: ExceptiePlataInvalida
+Mesajul erorii: Data de expirare este invalida sau cardul a expirat.
+
+------------------------------------
+Data si ora: Wed Dec 11 20:24:04 2024
+Tipul erorii: ExceptieStocInsuficient
+Mesajul erorii: Stoc insuficient pentru achizitionarea produsului!
+------------------------------------
+Data si ora: Wed Dec 11 21:31:00 2024
+Tipul erorii: ExceptiePlataInvalida
+Mesajul erorii: Data de expirare este invalida sau cardul a expirat.
+
+------------------------------------

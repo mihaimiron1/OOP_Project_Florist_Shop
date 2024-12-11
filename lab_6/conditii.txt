@@ -1,0 +1,101 @@
+Laborator 6: Utilizarea Agregării și Compoziției cu Clase Template și Respectarea Naming Convention
+
+Scopul laboratorului:
+Studenții vor învăța să implementeze și să utilizeze conceptele de agregare și compoziție împreună cu clase template în C++. 
+Vor respecta convențiile de nume (naming convention) pentru a dezvolta un cod curat și organizat.
+
+Tema generală:
+Extindeți sistemul magazinului pentru a implementa:
+1. Agregare: Introduceți componente reutilizabile, cum ar fi gestionarea stocului sau a comenzilor.
+2. Compoziție: Modelează o relație puternică între clase, de exemplu, între un client și detaliile contului său.
+3. Template-uri: Asigurați flexibilitate în gestionarea diferitelor tipuri de produse sau clienți.
+4. Respectarea naming convention.
+
+Cerințe specifice:
+1. Sistem de Gestionare a Stocului
+(Inlocuieste clasa produse cu aceasta clasa?)
+Descriere: Creați o clasă template Inventory<T> care gestionează stocurile pentru diferite produse. Fiecare produs trebuie să conțină:
+    Nume.
+    Cantitate.
+    Preț pe unitate.
+    Implementați agregarea clasei Inventory<T> într-o clasă Store, care va conține:
+    O listă de produse (std::vector<Inventory<T>>).
+    Metode pentru adăugare, ștergere și listare a produselor din stoc.
+Exercițiu: Realizați funcționalitatea care permite calcularea valorii totale a stocului din magazin.
+
+
+2. Sistem de Gestionare a Comenzilor
+Descriere: Creați o clasă Order care utilizează:
+    Compoziție cu o clasă Customer ce reprezintă datele clientului.
+    O listă de produse din stocul magazinului.
+    Metode pentru a calcula valoarea totală a comenzii și pentru a genera o factură.
+Template: Folosiți un template pentru produse, astfel încât Order să fie flexibil la tipul de produse gestionate.
+Exercițiu: Implementați verificarea dacă produsele din comandă sunt suficiente în stoc (dacă nu, generați un mesaj de eroare).
+
+
+3. Carduri de Reducere (Agregare și Template-uri)
+Descriere: Creați o clasă template DiscountCard<T> care stochează informații despre:
+    Codul cardului.
+    Valoarea reducerii.
+    Data expirării.
+Adăugați o instanță a clasei DiscountCard în Customer folosind agregare.
+Exercițiu: Asigurați-vă că:
+    Clientul poate avea doar un card activ.
+    Cardul este validat la momentul aplicării reducerii în comandă.
+
+
+4. Sistem de Clasificare a Produselor
+Descriere: Implementați o clasă Category care conține informații despre o categorie de produse. Această clasă trebuie să fie utilizată în compoziție în clasa Inventory<T>. Exemple de categorii:
+    Alimentare.
+    Electrocasnice.
+Produse vestimentare.
+Exercițiu: Asociați fiecare produs din inventar cu o categorie și afișați produsele grupate pe categorii.
+
+
+5. Managementul Clienților
+Descriere: Creați o clasă Customer care stochează informațiile de bază ale clientului. Aceasta trebuie să utilizeze:
+    Compoziție cu clasa Account care stochează numele de utilizator, parola și istoricul comenzilor.
+    Agregare cu clasa Order, pentru a stoca comenzile curente ale clientului.
+Exercițiu: Adăugați o metodă generateLoyaltyReport() care să calculeze și să afișeze un raport de loialitate pe baza istoricului comenzilor.
+
+
+6. Sistem de Rapoarte (Agregare cu Template-uri)
+Descriere: Creați o clasă template Report<T> care generează rapoarte despre:
+    Stocuri.
+    Vânzări.
+    Clienți.
+Folosiți agregare pentru a adăuga această clasă într-o clasă StoreManager, care gestionează întregul magazin.
+Exercițiu: Implementați un raport de tip "Cele mai vândute produse".
+
+
+7. Catalogul Produselor
+Descriere: Implementați o clasă ProductCatalog care utilizează:
+    Compoziție cu o clasă Product ce stochează datele fiecărui produs.
+    Template-uri pentru a suporta diferite tipuri de produse.
+Exercițiu: Implementați o metodă care caută produse după nume sau categorie.
+
+
+8. Sistem de Validare
+Descriere: Adăugați o clasă template Validator<T> pentru a valida:
+    Produse (preț și cantitate).
+    Carduri de reducere (dată de expirare).
+    Comenzi (disponibilitatea produselor în stoc).
+Exercițiu: Utilizați clasa Validator<T> pentru a valida intrările din stoc și comenzile clienților.
+
+
+9. Suport pentru Feedback-ul Clienților
+Descriere: Implementați o clasă Feedback care este compusă în Customer. Fiecare feedback trebuie să conțină:
+    Numele clientului.
+    Textul feedback-ului.
+    Data și ora.
+Exercițiu: Oferiți funcționalitatea de a genera un raport cu cele mai frecvente opinii.
+
+
+10. Integrarea cu Sistemul de Plăți
+Descriere: Creați o clasă template PaymentSystem<T> care să suporte:
+    Plăți prin card.
+    Plăți numerar.
+    Plăți cu reduceri aplicate.
+Folosiți compoziție pentru a integra sistemul de plată în Order.
+Exercițiu: Validați tranzacțiile și gestionați excepțiile pentru plăți invalide.
+

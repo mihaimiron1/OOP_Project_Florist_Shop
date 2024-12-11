@@ -1,0 +1,84 @@
+{
+    "persoane": [
+        {
+            "Buy_500": 31,
+            "ID": 1,
+            "Nume": "Ion",
+            "Total_money": 46838.0,
+            "Vip": 0,
+            "Vizite": 74
+        },
+        {
+            "Buy_500": 1,
+            "ID": 2,
+            "Nume": "Maria",
+            "Total_money": 1575.0,
+            "Vip": 0,
+            "Vizite": 3
+        },
+        {
+            "Buy_500": 1,
+            "ID": 3,
+            "Nume": "Alex",
+            "Total_money": 700,
+            "Vip": 0,
+            "Vizite": 1
+        },
+        {
+            "Buy_500": 3,
+            "ID": 4,
+            "Nume": "Andreea",
+            "Total_money": 2000.0,
+            "Vip": 0,
+            "Vizite": 5
+        },
+        {
+            "Buy_500": 10,
+            "ID": 5,
+            "Nume": "Daniel",
+            "Total_money": 504024.0,
+            "Vip": 1,
+            "Vizite": 16
+        },
+        {
+            "Buy_500": 3,
+            "ID": 6,
+            "Nume": "Elena",
+            "Total_money": 9500,
+            "Vip": 0,
+            "Vizite": 5
+        },
+        {
+            "Buy_500": 7,
+            "ID": 7,
+            "Nume": "Mihai",
+            "Total_money": 550150.0,
+            "Vip": 0,
+            "Vizite": 4
+        },
+        {
+            "Buy_500": 2,
+            "ID": 999,
+            "Nume": "Mihai",
+            "Total_money": 2250.0,
+            "Vip": 0,
+            "Vizite": 4
+        },
+        {
+            "Buy_500": 0,
+            "ID": 787,
+            "Nume": "Ana",
+            "Total_money": 0.0,
+            "Vip": 0,
+            "Vizite": 1
+        },
+        {
+            "Buy_500": 0,
+            "ID": 0,
+            "Nume": "Nicu",
+            "Total_money": 0.0,
+            "Vip": 0,
+            "Vizite": 0
+        }
+    ]
+}
